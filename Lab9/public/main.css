@@ -1,0 +1,64 @@
+.is-prime {
+  color: #00E676;
+}
+
+.not-prime {
+  color: #FF3D00;
+}
+
+body {background-color: rgb(234, 235, 204);}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: green;
+  text-align: center;
+
+}
+label {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1c87c9;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+form {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  background-color: lightgrey;
+}
+
+p {
+  border: 5px dotted gold;
+}
+

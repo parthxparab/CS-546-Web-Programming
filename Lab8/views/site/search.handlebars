@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>People Found</title>
+
+  <link rel="stylesheet" href="/public/site.css" />
+</head>
+
+<body>
+  <main>
+    <h1>People Found!!</h1>
+    <h2>{{name}}</h2>
+    {{#if people.length}}
+    <ul>
+      {{#each people}}
+      <li>
+        <a href="/details/{{id}}">{{firstName}} {{lastName}}</a>
+      </li>
+      {{/each}}
+    </ul>
+    {{else}}
+      <p class="not-found">We're sorry, but no results were found for {{name}}.</p>
+    {{/if}}
+    <a href="/">Make Another Search</a>
+  </main>
+</body>
+
+</html>

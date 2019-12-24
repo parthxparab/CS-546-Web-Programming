@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "Lab for working with Node modules and MongaDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Parth Parab 10444835",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^3.3.2"
+  }
+}
